@@ -88,14 +88,11 @@ function createChainTask(chain) {
   config.tasksClone.push('clone-ds-' + chain);
 }
 
-gulp.task('build-clone', function(cb){
-  // build task off current branch name
-  for(var c in config.chains) {
-    var chain = config.chains[c];
-    createChainTask(chain);
-  };
-  cb();
-});
+// build task off current branch name
+for(var c in config.chains) {
+  var chain = config.chains[c];
+  createChainTask(chain);
+};
 
 gulp.task('build-copy', function(cb){
   if (config.tasksCopy.length > 0)
@@ -158,7 +155,7 @@ gulp.task('ds-common-config-for-local-cdn', function(){
 
 // run tasks in sequential order
 gulp.task('default', function(cb) {
-  runSeq('current-branch', 'build-clone', config.tasksClone, 'build-copy', 'ds-common-config-for-local-cdn', cb);
+  runSeq('current-branch', config.tasksClone, 'build-copy', 'ds-common-config-for-local-cdn', cb);
 });
 
 gulp.task('deploy', function(cb) {
