@@ -340,7 +340,7 @@ legend {
 }
 
 .searchField input {
-    background: url('//upload.gsngrocers.com/chainfiles/216/creative/201612/636186190431671469-search.png') no-repeat scroll 4px 4px;
+    background: url('//upload.brickinc.net/chainfiles/216/creative/201612/636186190431671469-search.png') no-repeat scroll 4px 4px;
     background-color: #ffffff;
     padding-left: 21px;
     padding-right: 0;
@@ -1436,15 +1436,15 @@ caption {
 }
 
 .featured.freefriday {
-    background-image: url('//upload.gsngrocers.com/chainfiles/216/creative/201612/636186190591843317-featuredbg.png') !important;
+    background-image: url('//upload.brickinc.net/chainfiles/216/creative/201612/636186190591843317-featuredbg.png') !important;
 }
 
 .featured.merry {
-    background-image: url('//upload.gsngrocers.com/images/holiday-bg-red.jpeg') !important;
+    background-image: url('//upload.brickinc.net/images/holiday-bg-red.jpeg') !important;
 }
 
 .featured.holiday {
-    background-image: url('//upload.gsngrocers.com/images/holiday-bg-white.jpeg') !important;
+    background-image: url('//upload.brickinc.net/images/holiday-bg-white.jpeg') !important;
 }
 
 .featured p {
@@ -1573,14 +1573,14 @@ td.nutr-border {
 }
 
 .features {
-    background-image: url('//upload.gsngrocers.com/chainfiles/216/creative/201612/636186190784965349-rssbox.png');
+    background-image: url('//upload.brickinc.net/chainfiles/216/creative/201612/636186190784965349-rssbox.png');
     background-repeat: no-repeat;
     border-bottom: 1px solid #7d6d6a;
     margin-bottom: 10px;
 }
 
 .events {
-    background-image: url('//upload.gsngrocers.com/chainfiles/216/creative/201612/636186190976167220-eventsbox.png');
+    background-image: url('//upload.brickinc.net/chainfiles/216/creative/201612/636186190976167220-eventsbox.png');
     background-repeat: no-repeat;
 }
 
@@ -1966,7 +1966,7 @@ td.nutr-border {
 }
 
 .itemInfo > div.circular-item> div:nth-child(2):before {
-    content: url('//upload.gsngrocers.com/chainfiles/216/creative/201612/636186190357590545-checkbox.png');
+    content: url('//upload.brickinc.net/chainfiles/216/creative/201612/636186190357590545-checkbox.png');
     position: relative;
     top: 4px;
 }
